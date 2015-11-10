@@ -1,0 +1,36 @@
+{
+  "name": "TravelApp",
+  "version": "0.0.1",
+  "description": "TravelApp package.json",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "envify": "^3.4.0",
+    "flux": "^2.0.1",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.8.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-extract-sourcemap": "^0.1.8",
+    "grunt-newer": "^1.1.0",
+    "grunt-react": "^0.12.1",
+    "grunt-sass": "^0.16.1",
+    "load-grunt-config": "^0.13.1",
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3",
+    "underscore": "^1.8.3",
+    "request": "^2.64.0",
+    "http-server": "^0.8.5",
+    "fbjs": "^0.4.0"
+  },
+  "dependencies": {
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1"
+  }
+}
