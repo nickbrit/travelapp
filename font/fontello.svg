@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="plus-circled" unicode="&#xe800;" d="m0 350q0 207 147 354t353 146 354-146 146-354-146-354-354-146-353 146-147 354z m219-80l201 0 0-201 160 0 0 201 201 0 0 160-201 0 0 201-160 0 0-201-201 0 0-160z" horiz-adv-x="1000" />
+<glyph glyph-name="minus" unicode="&#xe801;" d="m0 209l0 282 1000 0 0-282-1000 0z" horiz-adv-x="1000" />
+<glyph glyph-name="right-big" unicode="&#xe802;" d="m821 314q0-30-20-50l-363-364q-22-20-51-20-29 0-50 20l-42 42q-22 21-22 51t22 51l163 163h-393q-29 0-47 21t-18 51v71q0 30 18 51t47 20h393l-163 164q-22 21-22 51t22 50l42 42q21 21 50 21 29 0 51-21l363-363q20-20 20-51z" horiz-adv-x="857.1" />
+<glyph glyph-name="up-open" unicode="&#xe803;" d="m939 107l-92-92q-11-10-26-10t-25 10l-296 297-296-297q-11-10-25-10t-26 10l-92 92q-11 11-11 26t11 25l414 414q11 10 25 10t25-10l414-414q11-11 11-25t-11-26z" horiz-adv-x="1000" />
+<glyph glyph-name="down-open" unicode="&#xe804;" d="m939 399l-414-413q-10-11-25-11t-25 11l-414 413q-11 11-11 26t11 25l92 92q11 11 26 11t25-11l296-296 296 296q11 11 25 11t26-11l92-92q11-11 11-25t-11-26z" horiz-adv-x="1000" />
+<glyph glyph-name="check" unicode="&#xe805;" d="m0-150l0 1000 646 0-164-164-318 0 0-672 672 0 0 319 164 164 0-647-1000 0z m234 623l133 131 129-129 361 363 133-132-361-364-133-133z" horiz-adv-x="1000" />
+<glyph glyph-name="check-empty" unicode="&#xe806;" d="m0-150l0 1000 1000 0 0-1000-1000 0z m164 164l672 0 0 672-672 0 0-672z" horiz-adv-x="1000" />
+<glyph glyph-name="cancel" unicode="&#xe807;" d="m0 71l279 279-279 279 221 221 279-279 279 279 221-221-279-279 279-279-221-221-279 279-279-279z" horiz-adv-x="1000" />
+<glyph glyph-name="logout" unicode="&#xe808;" d="m912 614l276-266-276-264v177h-413v176h413v177z m-166-512l106-107q-156-146-338-146-217 0-365 143t-149 359q0 135 68 250t184 182 250 66q184 0 349-148l-105-106q-114 104-243 104-149 0-251-104t-103-254q0-140 106-241t247-101q131 0 244 103z" horiz-adv-x="1188" />
+</font>
+</defs>
+</svg>

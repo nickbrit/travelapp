@@ -17,7 +17,6 @@ var queue = async.queue( function (task, callback) {
 // Convenience method to handle dispatch requests
 AppDispatcher.handleAction = function(action) {
     queue.push({source: 'VIEW_ACTION', action : action});
-    analytics(action);
 };
 
 module.exports = AppDispatcher;

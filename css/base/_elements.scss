@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?59737861');
+  src: url('../font/fontello.eot?59737861#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?59737861') format('woff'),
+       url('../font/fontello.ttf?59737861') format('truetype'),
+       url('../font/fontello.svg?59737861#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-font {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before { content: '\e805'; } /* '' */
+.icon-check-empty:before { content: '\e806'; } /* '' */
+.icon-cancel:before { content: '\e807'; } /* '' */
+.icon-right:before { content: '\e802'; } /* '' */
+.icon-up:before { content: '\e803'; } /* '' */
+.icon-down:before { content: '\e804'; } /* '' */
+.icon-plus:before { content: '\e800'; } /* '' */
+.icon-minus:before { content: '\e801'; } /* '' */
+.icon-logout:before { content: '\e808'; } /* '' */
+
+.through {
+    text-decoration: line-through;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px 20px 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    &:focus {
+        border: 1px solid #FF00E0;
+    }
+}
+.input-block {
+    position: relative;
+    width: 100%;
+    label {
+        position: absolute;
+        top: 3px;
+        left: 20px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #FF00E0;
+        pointer-events: none;
+        -webkit-transition: all .2s ease-in-out;
+          -moz-transition: all .2s ease-in-out;
+          -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+    }
+    .icon-right {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        margin-top: -10px;
+        font-size: 20px;
+        color: #ccc;
+        cursor: pointer;
+        &:hover {
+            color: #000;
+        }
+    }
+    .error-tipsy {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 5px;
+        font-size: 14px;
+        text-align: center;
+        border-radius: 6px;
+        border: 1px solid transparent;
+        background: #D3375B;
+        -webkit-animation: FadeIn .3s;
+        -moz-animation: FadeIn .3s;
+        -ms-animation: FadeIn .3s;
+         -o-animation: FadeIn .3s;
+            animation: FadeIn .3s;
+    }
+    .spinner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -35px;
+        margin-top: -9px;
+    }
+}
+.input-block-empty {
+    label {
+        top: 50%;
+        margin-top: -8px;
+        font-size: 16px;
+        color: #ccc;
+    }
+}
+
+.signin-form {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #000;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #fff;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 8px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    -webkit-animation: MoveDown 2s;
+       -moz-animation: MoveDown 2s;
+        -ms-animation: MoveDown 2s;
+         -o-animation: MoveDown 2s;
+            animation: MoveDown 2s;
+    h3 {
+        position: absolute;
+        padding: 3px 10px;
+        top: -10px;
+        background: #F00;
+    }
+}
+
+
+.spinner {
+  width: 70px;
+  text-align: center;
+}
+
+.spinner {
+    div {
+        width: 18px;
+        height: 18px;
+        background-color: #333;
+        border-radius: 100%;
+        display: inline-block;
+        -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    }
+    .bounce1 {
+        -webkit-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+    }
+    .bounce2 {
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+    }
+}

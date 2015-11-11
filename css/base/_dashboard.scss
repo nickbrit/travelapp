@@ -1,0 +1,121 @@
+.dashboard-block {
+    position: relative;
+    width: 400px;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 20px 0;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background: #3C2965;
+    .spinner-block {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.3);
+        .spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -35px;
+            margin-top: -9px;
+        }
+    }
+    ul {
+        li {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 10px 20px;
+            border-bottom: 1px solid rgba(0,0,0,.175);
+            &:last-child {
+                border-bottom: 0;
+            }
+            .dashboard-nav {
+                position: absolute;
+                top: 10px;
+                bottom: 10px;
+                left: 20px;
+                width: 30px;
+                background: #FF00E0;
+                border-radius: 20px;
+                .dashboard-toggle {
+                    position: absolute;
+                    top: 3px;
+                    left: 50%;
+                    margin-left: -8px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    &:before {
+                        content: '\e804';
+                    }
+                }
+            }
+            .dashboard-header {
+                font-size: 18px;
+                line-height: 24px;
+                padding-left: 40px;
+                cursor: pointer;
+            }
+            .dashboard-items {
+                padding: 20px 0;
+                .dashboard-item {
+                    position: relative;
+                    padding: 10px 0 10px 40px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    .checkbox, .icon-cancel {
+                        position: absolute;
+                        top: 50%;
+                        left: 8px;
+                        margin-top: -8px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        &:hover {
+                            color: rgba(255, 255, 255, 0.51);
+                        }
+                    }
+                    .icon-cancel {
+                        right: 8px;
+                        left: auto;
+                    }
+                }
+            }
+            .dashboard-items-hidden {
+                display: none;
+            }
+            .new-item {
+                margin: 20px 0 10px 0;
+                text-align: center;
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    i {
+                        margin-right: 5px;
+                    }
+                    &:hover {
+                        color: rgba(255, 255, 255, 0.51);
+                    }
+                }
+            }
+            .searchPlace {
+                padding-left: 40px;
+                input {
+                    padding: 5px 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .active {
+            .dashboard-nav {
+                .dashboard-toggle {
+                    &:before {
+                        content: '\e803';
+                    }
+                }
+            }
+        }
+    }
+}

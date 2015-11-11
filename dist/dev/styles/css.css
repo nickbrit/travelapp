@@ -1,4 +1,66 @@
-/* line 1, ../../../css/css.scss */
+/* line 1, ../../../css/base/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 8, ../../../css/base/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 10, ../../../css/base/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 12, ../../../css/base/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 14, ../../../css/base/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 17, ../../../css/base/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 21, ../../../css/base/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 24, ../../../css/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 27, ../../../css/base/_reset.scss */
+b {
+  font-weight: 700;
+}
+
+/* line 30, ../../../css/base/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 1, ../../../css/base/_root.scss */
 html {
-  color: red;
+  background: url(img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

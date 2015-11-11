@@ -21,11 +21,13 @@
     "grunt-sass": "^0.16.1",
     "load-grunt-config": "^0.13.1",
     "react": "^0.13.3",
+    "react-dom": "^0.14.2",
     "react-tools": "^0.13.3",
     "underscore": "^1.8.3",
     "request": "^2.64.0",
     "http-server": "^0.8.5",
-    "fbjs": "^0.4.0"
+    "fbjs": "^0.4.0",
+    "jquery": "^2.1.4"
   },
   "dependencies": {
     "jshint-stylish": "^1.0.0"

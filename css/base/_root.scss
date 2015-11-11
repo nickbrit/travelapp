@@ -1,0 +1,50 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-animation: FadeIn 1s;
+       -moz-animation: FadeIn 1s;
+        -ms-animation: FadeIn 1s;
+         -o-animation: FadeIn 1s;
+            animation: FadeIn 1s;
+}
+
+.usermenu {
+    &:before, &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    ul {
+        float: right;
+        li {
+            float: left;
+            margin-left: 20px;
+            color: #000;
+        }
+        .logout {
+            cursor: pointer;
+        }
+    }
+}

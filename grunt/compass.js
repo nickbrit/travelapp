@@ -3,13 +3,13 @@ module.exports = {
     dev: {                   // Target
         options: {              // Target options
             sassDir: 'css',
-            cssDir: 'dist/dev/styles'
+            cssDir: 'styles'
         }
     },
     prod: {                    // Another target
         options: {
             sassDir: 'css',
-            cssDir: 'dist/prod/styles',
+            cssDir: 'styles',
             environment: 'production'
         }
     }
